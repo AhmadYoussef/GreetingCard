@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Calligraffitti', cursive;
+	font-size: 20px;
+	color:#ffffff;
+	background-color: rgb(168, 168, 168);
+
+}
+main{
+	box-shadow: 0 0 13px rgba(0, 0, 0, 0.512);
+	
+}
+.center{
+	margin: 0 auto;
+	margin-top:10%;
+	width: 613.594px;
+	height: 460.188px;
+}
+main.center{
+	position: relative;
+}
+.rotatedBackground{
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top:10%;
+	/* -ms-transform: rotate(-5deg); 
+    -webkit-transform: rotate(-5deg); 
+	transform: rotate(-5deg); */
+	width: 701px;
+    height: 553px;
+    transform: rotate3d(4,-2,1,56deg);
+    position: absolute;
+    top: -63px;
+    left: -10px;
+    z-index: 1;
+}
+.backgroundImageColor{
+	position: relative;
+	background-color:#542537;
+	z-index: 4;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-shadow: 0 0 22px rgba(0, 0, 0, 0.712);
+}
+
+section{
+	position: absolute;
+	width: 423.375px;
+	top:116px;
+	left:187px;
+}
+
+h2{
+	font-size: 4rem;
+	font-weight: 700;
+}
+h2:nth-child(2){
+	padding-left: 97.375px;
+    margin-top: -25.391px;
+}
+p{
+	font-size: 1.1rem;
+	padding-left: 127px;
+}
+p:last-child{
+	margin-top: 4.219px;
+	padding-left: 143.938px;
+}
